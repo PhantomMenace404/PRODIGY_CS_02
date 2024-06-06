@@ -64,6 +64,7 @@ def main():
         formatter_class=argparse.RawTextHelpFormatter,
         epilog="""
 Example usage:
+  python3 pixcrypt.py encrypt input.jpg encrypted.png 100 add
   python3 pixcrypt.py encrypt <input_path> <output_path> <key> <operation>
   python3 pixcrypt.py decrypt <input_path> <output_path> <key> <operation>
 """
