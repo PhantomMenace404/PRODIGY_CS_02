@@ -69,7 +69,7 @@ Example usage:
 """
     )
     
-    subparsers = parser.add_subparsers(dest="command", help="\nSub-commands:")
+    subparsers = parser.add_subparsers(dest="command", help="Sub-commands:")
     
     encrypt_parser = subparsers.add_parser("encrypt", help="Encrypt an image")
     encrypt_parser.add_argument("input", type=str, help="Path to the input image")
